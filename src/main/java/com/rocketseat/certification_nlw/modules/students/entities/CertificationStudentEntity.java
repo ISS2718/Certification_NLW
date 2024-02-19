@@ -16,10 +16,12 @@ import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity(name = "certifications")
@@ -43,7 +45,7 @@ public class CertificationStudentEntity {
     
     @OneToMany
     @JoinColumn(name = "certification_id", insertable = false, updatable = false)
-    private List<AnswersCertificationsEntitys> answersCertificationsEntitys;
+    private List<AnswersCertificationsEntity> answersCertificationsEntitys;
 
     
     @CreationTimestamp
