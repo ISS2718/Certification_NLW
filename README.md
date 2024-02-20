@@ -1,6 +1,6 @@
 # 🎓 Certificação NLW
 
-Este projeto é uma API para um aplicativo de certificações, semelhante à avaliação de competências do LinkedIn. Foi desenvolvido durante a primeira NLW (Next Level Week) de 2024, utilizando uma variedade de tecnologias.
+Este projeto é uma API para um aplicativo de certificações, semelhante à avaliação de competências do LinkedIn. Foi desenvolvido durante a NLW Expert trilha de Java, primeira NLW (Next Level Week) de 2024, utilizando uma variedade de tecnologias.
 
 ## 💻 Tecnologias Utilizadas
 
