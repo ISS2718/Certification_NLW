@@ -17,8 +17,6 @@
 ## DTO
 Classes criadas para comunicação entre classes somente com parâmetros necessários para essa comunicação.
 
-Claro, aqui estão os conceitos de ORM e Repository explicados com exemplos em Java usando Spring Boot:
-
 ## ORM (Object-Relational Mapping)
 **ORM (Object-Relational Mapping)** é uma técnica de programação que converte dados entre sistemas incompatíveis usando a programação orientada a objetos. Em Java, você pode usar um ORM como Hibernate ou JPA para interagir com o banco de dados. Em vez de escrever uma consulta SQL como `SELECT * FROM users WHERE id = 1`, você pode escrever algo como `userRepository.findById(1L)`.
 
